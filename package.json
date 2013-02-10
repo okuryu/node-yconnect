@@ -1,0 +1,34 @@
+{
+  "name": "yconnect",
+  "version": "1.0.0",
+  "description": "YConnect (Yahoo! JAPAN OAuth 2.0 + OpenID Connect) client for Node.js",
+  "keywords": [
+    "oauth",
+    "yahoo",
+    "yconnect"
+  ],
+  "bugs": {
+    "url": "https://github.com/okuryu/node-yconnect/issues"
+  },
+  "author": {
+    "name": "Ryuichi Okumura",
+    "email": "okuryu@okuryu.com",
+    "url": "http://www.okuryu.com/"
+  },
+  "license": "BSD",
+  "main": "./lib/yconnect.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okuryu/node-yconnect.git"
+  },
+  "scripts": {
+    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/*.js"
+  },
+  "dependencies": {
+    "oauth": "*"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "yui-lint": "*"
+  }
+}
