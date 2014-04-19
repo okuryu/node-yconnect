@@ -1,4 +1,4 @@
-# Asynchronous YConnect API clinet for Node.js
+# node-yconnect
 
 [YConnect](http://developer.yahoo.co.jp/yconnect/) is OAuth 2.0 + OpenID
 Connect authorization functionality by Yahoo! JAPAN.
