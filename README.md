@@ -1,5 +1,7 @@
 # node-yconnect
 
+[![NPM version](https://badge.fury.io/js/yconnect.svg)](http://badge.fury.io/js/yconnect)
+
 [YConnect](http://developer.yahoo.co.jp/yconnect/) is OAuth 2.0 + OpenID
 Connect authorization functionality by Yahoo! JAPAN.
 
