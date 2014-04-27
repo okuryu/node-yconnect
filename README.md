@@ -2,24 +2,21 @@
 
 [![NPM version](https://badge.fury.io/js/yconnect.svg)](http://badge.fury.io/js/yconnect)
 
-[YConnect](http://developer.yahoo.co.jp/yconnect/) is OAuth 2.0 + OpenID
-Connect authorization functionality by Yahoo! JAPAN.
+YConnect (OAuth 2.0 + OpenID connect authorization) for Node.js.
 
-## Install
+## Getting Started
+
+Install to using NPM.
 
 ```
-npm install yconnect
+$ npm install yconnect
 ```
-
-## Usage
 
 By passing the access token to access the API, you can retrieve the data.
 
-### UserInfo API
+Here is an example to access the [UserInfo API](http://developer.yahoo.co.jp/yconnect/userinfo.html):
 
-A example to access the [UserInfo API](http://developer.yahoo.co.jp/yconnect/userinfo.html):
-
-```javascript
+```js
 var YConnect = require('yconnect').YConnect;
 var yc = new YConnect({
     access_token: '<access token>'
@@ -34,7 +31,7 @@ yc.getUserInfo({schema: 'openid'}, function (error, data) {
 });
 ```
 
-The result just below:
+The result is just below.
 
 ```
 { user_id: '43M63NAGMHBAYMXRMY3WODOWS4',
