@@ -56,4 +56,6 @@ The result is just below.
 
 ## License
 
-BSD license
+This module is available under the [BSD license](LICENSE).
+
+The [oauth](https://github.com/ciaranj/node-oauth) module is available under the MIT license.
