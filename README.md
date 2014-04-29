@@ -54,6 +54,10 @@ The result is just below.
   gender: 'male' }
 ```
 
+## Author
+
+* Ryuichi Okumura <okuryu@okuryu.com>
+
 ## License
 
 This module is available under the [BSD license](LICENSE).
