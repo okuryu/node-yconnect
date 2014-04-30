@@ -56,7 +56,7 @@ The result is just below.
 
 ## Author
 
-* Ryuichi Okumura
+* [Ryuichi Okumura](http://www.okuryu.com/)
 
 ## License
 
