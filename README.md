@@ -54,6 +54,10 @@ The result is just below.
   gender: 'male' }
 ```
 
+## More details to use YConnect
+
+All the stuff in [YConnect official documents](http://developer.yahoo.co.jp/yconnect/).
+
 ## Author
 
 * [Ryuichi Okumura](http://www.okuryu.com/)
