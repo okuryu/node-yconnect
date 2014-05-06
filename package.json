@@ -16,13 +16,13 @@
     "url": "http://www.okuryu.com/"
   },
   "license": "BSD",
-  "main": "./lib/yconnect.js",
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/okuryu/node-yconnect.git"
   },
   "scripts": {
-    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/*.js"
+    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json *.js"
   },
   "dependencies": {
     "oauth": "*"
