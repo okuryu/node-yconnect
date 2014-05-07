@@ -1,7 +1,7 @@
 {
   "name": "yconnect",
   "version": "1.0.0",
-  "description": "YConnect (Yahoo! JAPAN OAuth 2.0 + OpenID Connect) client for Node.js",
+  "description": "YConnect for Node.js",
   "keywords": [
     "oauth",
     "yahoo",
