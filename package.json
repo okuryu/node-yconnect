@@ -11,7 +11,10 @@
     "url": "https://github.com/okuryu/node-yconnect/issues"
   },
   "author": "Ryuichi Okumura <okuryu@okuryu.com>",
-  "license": "BSD",
+  "license": {
+    "type": "BSD",
+    "url": "https://github.com/okuryu/node-yconnect/blob/master/LICENSE"
+  },
   "main": "index",
   "repository": {
     "type": "git",
