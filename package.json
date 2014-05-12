@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "YConnect for Node.js",
   "keywords": [
-    "oauth",
-    "yahoo",
     "yconnect"
   ],
   "bugs": {
