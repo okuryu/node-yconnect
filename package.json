@@ -19,13 +19,12 @@
     "url": "git@github.com:okuryu/node-yconnect.git"
   },
   "scripts": {
-    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json *.js"
+    "pretest": "node_modules/.bin/eslint -c .eslintrc.yml *.js"
   },
   "dependencies": {
     "oauth": "*"
   },
   "devDependencies": {
-    "jshint": "*",
-    "yui-lint": "*"
+    "eslint": "^0.5.1"
   }
 }

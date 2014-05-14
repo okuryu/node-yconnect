@@ -1,7 +1,7 @@
 "use strict";
 
-var querystring = require('querystring');
-var OAuth2 = require('oauth').OAuth2;
+var querystring = require("querystring");
+var OAuth2 = require("oauth").OAuth2;
 
 function YConnect(options) {
     this.oauth = new OAuth2();
@@ -10,13 +10,13 @@ function YConnect(options) {
 
 YConnect.prototype = {
     getUserInfo: function (params, callback) {
-        if (typeof params !== 'object') {
+        if (typeof params !== "object") {
             params = {
-                schema: 'openid'
+                schema: "openid"
             };
         }
-        var urlBase = 'https://userinfo.yahooapis.jp/yconnect/v1/attribute',
-            url = urlBase + '?' + querystring.stringify(params);
+        var urlBase = "https://userinfo.yahooapis.jp/yconnect/v1/attribute",
+            url = urlBase + "?" + querystring.stringify(params);
         this.oauth.get(url, this.options.access_token, callback);
     }
 };
