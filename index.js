@@ -1,3 +1,8 @@
+/*
+ Copyright (c) 2013, Ryuichi Okumura. All rights reserved.
+ Code licensed under the BSD License:
+ https://github.com/okuryu/node-yconnect/blob/master/LICENSE
+ */
 "use strict";
 
 var querystring = require("querystring");
