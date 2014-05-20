@@ -18,12 +18,9 @@ By passing the access token to access the API, you can retrieve the data.
 Here is an example to access the [UserInfo API](http://developer.yahoo.co.jp/yconnect/userinfo.html):
 
 ```js
-var YConnect = require('yconnect').YConnect;
-var yc = new YConnect({
-    access_token: '<access token>'
-});
+var yconnect = require('yconnect');
 
-yc.getUserInfo({schema: 'openid'}, function (error, data) {
+yconnect("<YOUR_ACCESS_TOKEN>").getUserInfo({schema: 'openid'}, function (error, data) {
     if (!error) {
         console.log(JSON.parse(data));
     } else {

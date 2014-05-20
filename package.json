@@ -19,13 +19,17 @@
     "url": "git@github.com:okuryu/node-yconnect.git"
   },
   "scripts": {
-    "pretest": "node_modules/.bin/eslint -c .eslintrc.yml *.js"
+    "pretest": "node_modules/.bin/eslint -c .eslintrc.yml *.js test/*.js",
+    "test": "node_modules/.bin/istanbul cover --report lcovonly node_modules/.bin/_mocha -- -R spec"
   },
   "dependencies": {
     "oauth": "*"
   },
   "devDependencies": {
+    "chai": "^1.9.1",
+    "echoecho": "^0.1.9",
     "eslint": "^0.5.1",
+    "istanbul": "^0.2.10",
     "mocha": "^1.18.2"
   }
 }
