@@ -1,6 +1,7 @@
 # node-yconnect
 
 [![NPM version](https://badge.fury.io/js/yconnect.svg)](http://badge.fury.io/js/yconnect)
+[![Build Status](https://travis-ci.org/okuryu/node-yconnect.svg)](https://travis-ci.org/okuryu/node-yconnect)
 [![Dependency Status](https://gemnasium.com/okuryu/node-yconnect.svg)](https://gemnasium.com/okuryu/node-yconnect)
 
 YConnect (OAuth 2.0 + OpenID connect authorization) for Node.js.
