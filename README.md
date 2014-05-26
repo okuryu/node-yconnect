@@ -3,6 +3,7 @@
 [![NPM version](https://badge.fury.io/js/yconnect.svg)](http://badge.fury.io/js/yconnect)
 [![Build Status](https://travis-ci.org/okuryu/node-yconnect.svg)](https://travis-ci.org/okuryu/node-yconnect)
 [![Dependency Status](https://gemnasium.com/okuryu/node-yconnect.svg)](https://gemnasium.com/okuryu/node-yconnect)
+[![Coverage Status](https://coveralls.io/repos/okuryu/node-yconnect/badge.png?branch=master)](https://coveralls.io/r/okuryu/node-yconnect?branch=master)
 
 YConnect (OAuth 2.0 + OpenID connect authorization) for Node.js.
 
