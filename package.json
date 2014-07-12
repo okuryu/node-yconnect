@@ -19,9 +19,9 @@
     "url": "git@github.com:okuryu/node-yconnect.git"
   },
   "scripts": {
-    "coveralls": "node_modules/.bin/istanbul cover --report lcovonly node_modules/.bin/_mocha -- -R spec && cat coverage/lcov.info | node_modules/.bin/coveralls",
-    "pretest": "node_modules/.bin/eslint -c .eslintrc.yml *.js test/*.js",
-    "test": "node_modules/.bin/istanbul cover --report lcovonly node_modules/.bin/_mocha -- -R spec"
+    "coveralls": "istanbul cover --report lcovonly _mocha -- -R spec && cat coverage/lcov.info | coveralls",
+    "pretest": "eslint -c .eslintrc.yml *.js test/*.js",
+    "test": "istanbul cover --report lcovonly _mocha -- -R spec"
   },
   "dependencies": {
     "oauth": "*"
