@@ -8,11 +8,11 @@
   "bugs": {
     "url": "https://github.com/okuryu/node-yconnect/issues"
   },
-  "author": "Ryuichi Okumura <okuryu@okuryu.com>",
   "license": {
     "type": "BSD",
     "url": "https://github.com/okuryu/node-yconnect/blob/master/LICENSE"
   },
+  "author": "Ryuichi Okumura <okuryu@okuryu.com>",
   "main": "index",
   "repository": {
     "type": "git",
