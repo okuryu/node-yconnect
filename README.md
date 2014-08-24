@@ -60,7 +60,7 @@ All the stuff in [YConnect official documents](http://developer.yahoo.co.jp/ycon
 
 ## Author
 
-* [Ryuichi Okumura](http://www.okuryu.com/)
+* Ryuichi Okumura ([@okuryu](https://github.com/okuryu))
 
 ## License
 
