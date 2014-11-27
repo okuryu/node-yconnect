@@ -24,7 +24,7 @@ YConnect.prototype.getUserInfo = function (params, callback) {
     }
     var requestURL = this.requestURL;
     if (this.requestURL === defaultRequestURL) {
-        requestURL =  + "?" + querystring.stringify(params);
+        requestURL += "?" + querystring.stringify(params);
     }
     if (typeof callback === "function") {
         this.oauth.get(requestURL, this.token, callback);
