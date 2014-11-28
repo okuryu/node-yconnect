@@ -30,7 +30,7 @@
     "chai": "^1.9.1",
     "coveralls": "^2.11.1",
     "echoecho": "^0.1.9",
-    "eslint": "^0.8.1",
+    "eslint": "^0.10.0",
     "istanbul": "^0.3.2",
     "mocha": "^1.21.5"
   }
