@@ -1,9 +1,9 @@
 # node-yconnect
 
-[![NPM version](https://badge.fury.io/js/yconnect.svg)](http://badge.fury.io/js/yconnect)
-[![Build Status](https://travis-ci.org/okuryu/node-yconnect.svg)](https://travis-ci.org/okuryu/node-yconnect)
-[![Dependency Status](https://gemnasium.com/okuryu/node-yconnect.svg)](https://gemnasium.com/okuryu/node-yconnect)
-[![Coverage Status](https://img.shields.io/coveralls/okuryu/node-yconnect/master.svg)](https://coveralls.io/r/okuryu/node-yconnect?branch=master)
+[![NPM version](https://img.shields.io/npm/v/yconnect.svg?style=flat-square)](https://www.npmjs.com/package/yconnect)
+[![Build Status](https://img.shields.io/travis/okuryu/node-yconnect/master.svg?style=flat-square)](https://travis-ci.org/okuryu/node-yconnect)
+[![Dependency Status](https://img.shields.io/gemnasium/okuryu/node-yconnect.svg?style=flat-square)](https://gemnasium.com/okuryu/node-yconnect)
+[![Coverage Status](https://img.shields.io/coveralls/okuryu/node-yconnect.svg?style=flat-square)](https://coveralls.io/r/okuryu/node-yconnect?branch=master)
 
 YConnect (OAuth 2.0 + OpenID connect authorization) for Node.js.
 
