@@ -1,9 +1,9 @@
 # node-yconnect
 
-[![NPM version](https://img.shields.io/npm/v/yconnect.svg?style=flat-square)](https://www.npmjs.com/package/yconnect)
-[![Build Status](https://img.shields.io/travis/okuryu/node-yconnect/master.svg?style=flat-square)](https://travis-ci.org/okuryu/node-yconnect)
-[![Dependency Status](https://img.shields.io/gemnasium/okuryu/node-yconnect.svg?style=flat-square)](https://gemnasium.com/okuryu/node-yconnect)
-[![Coverage Status](https://img.shields.io/coveralls/okuryu/node-yconnect.svg?style=flat-square)](https://coveralls.io/r/okuryu/node-yconnect?branch=master)
+[![npm Version][npm Version Badge]][npm Version]
+[![Build Status][Build Status Badge]][Build Status]
+[![Dependency Status][Dependency Status Badge]][Dependency Status]
+[![Coverage Status][Coverage Status Badge]][Coverage Status]
 
 YConnect (OAuth 2.0 + OpenID connect authorization) for Node.js.
 
@@ -17,7 +17,7 @@ $ npm install yconnect
 
 By passing the access token to access the API, you can retrieve the data.
 
-Here is an example to access the [UserInfo API](http://developer.yahoo.co.jp/yconnect/userinfo.html):
+Here is an example to access the [UserInfo API]:
 
 ```js
 var yconnect = require('yconnect');
@@ -60,10 +60,23 @@ All the stuff in [YConnect official documents](http://developer.yahoo.co.jp/ycon
 
 ## Author
 
-* Ryuichi Okumura ([@okuryu](https://github.com/okuryu))
+* Ryuichi Okumura ([@okuryu])
 
 ## License
 
 This module is available under the [BSD license](LICENSE).
 
-The [oauth](https://github.com/ciaranj/node-oauth) module is available under the MIT license.
+The [oauth] module is available under the MIT license.
+
+[npm Version Badge]: https://img.shields.io/npm/v/yconnect.svg?style=flat-square
+[npm Version]: https://www.npmjs.com/package/yconnect
+[Build Status Badge]: https://img.shields.io/travis/okuryu/node-yconnect/master.svg?style=flat-square
+[Build Status]: https://travis-ci.org/okuryu/node-yconnect
+[Dependency Status Badge]: https://img.shields.io/gemnasium/okuryu/node-yconnect.svg?style=flat-square
+[Dependency Status]: https://gemnasium.com/okuryu/node-yconnect
+[Coverage Status Badge]: https://img.shields.io/coveralls/okuryu/node-yconnect?style=flat-square
+[Coverage Status]: https://coveralls.io/r/okuryu/node-yconnect?branch=master
+[UserInfo API]: http://developer.yahoo.co.jp/yconnect/userinfo.html
+[YConnect official documents]: http://developer.yahoo.co.jp/yconnect/
+[@okuryu]: https://github.com/okuryu
+[oauth]: https://github.com/ciaranj/node-oauth
