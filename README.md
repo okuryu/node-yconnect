@@ -74,7 +74,7 @@ The [oauth] module is available under the MIT license.
 [Build Status]: https://travis-ci.org/okuryu/node-yconnect
 [Dependency Status Badge]: https://img.shields.io/gemnasium/okuryu/node-yconnect.svg?style=flat-square
 [Dependency Status]: https://gemnasium.com/okuryu/node-yconnect
-[Coverage Status Badge]: https://img.shields.io/coveralls/okuryu/node-yconnect?style=flat-square
+[Coverage Status Badge]: https://img.shields.io/coveralls/okuryu/node-yconnect.svg?style=flat-square
 [Coverage Status]: https://coveralls.io/r/okuryu/node-yconnect?branch=master
 [UserInfo API]: http://developer.yahoo.co.jp/yconnect/userinfo.html
 [YConnect official documents]: http://developer.yahoo.co.jp/yconnect/
