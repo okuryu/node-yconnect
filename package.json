@@ -24,7 +24,7 @@
     "oauth": "0.x.x"
   },
   "devDependencies": {
-    "chai": "^3.0.0",
+    "chai": "^3.2.0",
     "coveralls": "^2.11.1",
     "echoecho": "^0.1.9",
     "eslint": "^1.0.0",
