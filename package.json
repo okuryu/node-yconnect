@@ -28,7 +28,7 @@
     "coveralls": "^2.11.4",
     "echoecho": "^0.1.10",
     "eslint": "^1.8.0",
-    "istanbul": "^0.3.14",
+    "istanbul": "^0.4.0",
     "mocha": "^2.2.5"
   }
 }
