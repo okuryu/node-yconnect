@@ -21,7 +21,7 @@
     "test": "istanbul cover --report lcovonly _mocha -- -R spec"
   },
   "dependencies": {
-    "oauth": "0.x.x"
+    "oauth": "^0.9.14"
   },
   "devDependencies": {
     "chai": "^3.4.0",
