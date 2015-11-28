@@ -19,7 +19,7 @@ server = http.createServer(function (req, res) {
     if (ee.handle(req)) {
         ee.serve(req, res);
     } else {
-        console.log("Bad Request");
+        throw new Error("Bad Request");
     }
 });
 server.listen(8080);
