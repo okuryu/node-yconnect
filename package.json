@@ -18,6 +18,7 @@
   "scripts": {
     "coveralls": "istanbul cover --report lcovonly _mocha -- -R spec && cat coverage/lcov.info | coveralls",
     "precommit": "npm test",
+    "prepublish": "npm test",
     "pretest": "eslint -c .eslintrc.yml *.js test/*.js",
     "test": "istanbul cover --report lcovonly _mocha -- -R spec"
   },
