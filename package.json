@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "chai": "^3.4.1",
-    "coveralls": "^2.11.4",
+    "coveralls": "^2.11.6",
     "echoecho": "^0.1.10",
     "eslint": "^1.10.3",
     "husky": "^0.10.2",
