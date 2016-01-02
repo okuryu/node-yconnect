@@ -6,14 +6,14 @@
 /*global describe, it*/
 "use strict";
 
-var yconnect = require("../index"),
-    EchoEcho = require("echoecho").EchoEcho,
-    http = require("http"),
-    expect = require("chai").expect;
+var yconnect = require("../index");
+var EchoEcho = require("echoecho").EchoEcho;
+var http = require("http");
+var expect = require("chai").expect;
 
-var ee = new EchoEcho({all: true}),
-    eeBaseURL = "http://127.0.0.1:8080",
-    server;
+var ee = new EchoEcho({all: true});
+var eeBaseURL = "http://127.0.0.1:8080";
+var server;
 
 server = http.createServer(function (req, res) {
     if (ee.handle(req)) {

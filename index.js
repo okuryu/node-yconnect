@@ -5,8 +5,8 @@
  */
 "use strict";
 
-var querystring = require("querystring"),
-    OAuth2 = require("oauth").OAuth2;
+var querystring = require("querystring");
+var OAuth2 = require("oauth").OAuth2;
 
 var defaultRequestURL = "https://userinfo.yahooapis.jp/yconnect/v1/attribute";
 
